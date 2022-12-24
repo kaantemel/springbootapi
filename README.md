@@ -52,6 +52,6 @@ Than, by using the requests below you can manage both tables by sending them.
   #### Put Requests to Update Tables
   - PUT http://localhost:8080/api/v1/project/pid?cname=NewCourseName&instructorname=NewInstructorName (This request is to change name of the project's course and instructor for the given project with pid)
   - PUT http://localhost:8080/api/v1/project/d/pid (This request adds a new student to project with pid)
-    - Structure of the body request must be same with the post request of the student table
+    - Structure of the body request must be same with the post request body of the student table
   - PUT http://localhost:8080/api/v1/project/c/pid?sid=SIDoftheStudent (This request assigns the already existing student without project with sid to project with pid)
   - PUT http://localhost:8080/api/v1/student/sid?name=NewName&email=NewEmail (This request updates name and email variables of the student with sid)
