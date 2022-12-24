@@ -5,9 +5,14 @@ This project creates two relational tables named Students and Projects. It is po
 ### Installation Requirements
 - IntelijIDE
 - PostMan (Or any other API to send requests)
+- PostgreSQL
 
 ### Instructions
-First open the project from your IntelijIDE and run the application to start localhost.
+First, open your PostgreSQL app or connect PostgreSQL by terminal and create a database named student by using the code below
+   ```
+    CREATE DATABASE student;
+   ```
+Than, open the project from your IntelijIDE and go to **src/main/resources/application.properties** and set the username and password according to your PostgreSQL account and run the application to start localhost.
 Than, by using the requests below you can manage both tables by sending them.
   #### Post Requests
   - POST http://localhost:8080/api/v1/project
