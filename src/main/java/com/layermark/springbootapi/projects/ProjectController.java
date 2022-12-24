@@ -38,10 +38,10 @@ public class ProjectController {
 
     @PutMapping(path = "{projectId}")
     public void updateCourse(@PathVariable("projectId") Long projectId,
-                             @RequestParam(required = false) String pname,
+                             @RequestParam(required = false) String cname,
                              @RequestParam(required = false) String instructorname
     ){
-        projectService.updateProject(projectId, pname, instructorname);
+        projectService.updateProject(projectId, cname, instructorname);
     }
 
     @PutMapping(path = "d/{projectId}")
