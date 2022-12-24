@@ -42,7 +42,7 @@ Than, by using the requests below you can manage both tables by sending them.
   - DELETE http://localhost:8080/api/v1/project/pid (Please don't forget that pid is the ID of the Project you want to delete so you should write a numeric value instead of pid)
   - DELETE http://localhost:8080/api/v1/student/sid (Please don't forget that sid is the ID of the Student you want to delete so you should write a numeric value instead of sid) 
   #### Put Requests to Update Tables
-  - PUT http://localhost:8080/api/v1/project/pid?pname=NewProjectName&instructorname=NewInstructorName (This request is to change name of the project and instructor for the given project with pid)
+  - PUT http://localhost:8080/api/v1/project/pid?cname=NewCourseName&instructorname=NewInstructorName (This request is to change name of the project's course and instructor for the given project with pid)
   - PUT http://localhost:8080/api/v1/project/d/pid (This request adds a new student to project with pid)
     - Structure of the body request must be same with the post request of the student table
   - PUT http://localhost:8080/api/v1/project/c/pid?sid=SIDoftheStudent (This request assigns the already existing student without project with sid to project with pid)
