@@ -16,7 +16,7 @@ Then, open the project from your IntelijIDE and go to **_src/main/resources/appl
  - http://localhost:8080/api/v1/project
  - http://localhost:8080/api/v1/student
 
-Then, by using the requests below you can manage both tables by sending them.
+Then, by using the requests below you can manage both tables by sending them via an API (PostMan has been used for the tests).
   #### Post Requests
   - POST http://localhost:8080/api/v1/project
     - Structure of the body request must be
