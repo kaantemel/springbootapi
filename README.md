@@ -8,11 +8,11 @@ This project creates two relational tables named Students and Projects. It is po
 - PostgreSQL
 
 ### Instructions
-First, open your PostgreSQL app or connect PostgreSQL by terminal and create a database named student by using the code below
+First, open your PostgreSQL app or connect PostgreSQL by terminal and create a database named **_student_** by using the code below
    ```
     CREATE DATABASE student;
    ```
-Than, open the project from your IntelijIDE and go to **src/main/resources/application.properties** and set the username and password according to your PostgreSQL account and run the application to start localhost. Now you can view both databases by clicking the links: 
+Than, open the project from your IntelijIDE and go to **_src/main/resources/application.properties_** and set the username and password according to your PostgreSQL account and run the application to start localhost. Now you can view both databases by clicking the links: 
  - http://localhost:8080/api/v1/project
  - http://localhost:8080/api/v1/student
 
