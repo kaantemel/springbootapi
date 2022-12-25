@@ -12,11 +12,11 @@ First, open your PostgreSQL app or connect PostgreSQL by terminal and create a d
    ```
     CREATE DATABASE student;
    ```
-Than, open the project from your IntelijIDE and go to **_src/main/resources/application.properties_** and set the username and password according to your PostgreSQL account and run the application to start localhost. Now you can view both databases by clicking the links: 
+Then, open the project from your IntelijIDE and go to **_src/main/resources/application.properties_** and set the username and password according to your PostgreSQL account and run the application to start localhost. Now you can view both databases by clicking the links: 
  - http://localhost:8080/api/v1/project
  - http://localhost:8080/api/v1/student
 
-Than, by using the requests below you can manage both tables by sending them.
+Then, by using the requests below you can manage both tables by sending them.
   #### Post Requests
   - POST http://localhost:8080/api/v1/project
     - Structure of the body request must be
